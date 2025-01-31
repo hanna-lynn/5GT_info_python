@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title> 
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"       rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@400..700&family=Concert+One&family=Covered+By+Your+Grace&family=Gloria+Hallelujah&family=Merienda:wght@300..900&family=Patrick+Hand&family=Rock+Salt&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+
+
+</head>
+  <body>
+
+    <h1 class="permanent-marker-regular"> Kyrie Andrew Irving </h1>
+  
+    <h2 class="covered-by-your-grace-regular"> Biographie
+  </h2>
+  
+  <a href="https://fr.wikipedia.org/wiki/Kyrie_Irving">  
+      <img height="300" src="./Images/kyrie.jpg" alt="Kyrie" class="image">
+  </a>
+
+ <p> Né le 23 mars 1992 à Melbourne en Australie, Kyrie Andrew Irving est un joueur australo-américain de basket-ball. Souvent appelé Uncle Drew Drew KAI, Kyrie joue au poste de meneur et d'arrière pour les Mavericks de Dallas. Il mesure 1 m 88 pour 88 kg et porte le maillot avec le numéro 11.</p>
+
+
+    <h2 class="covered-by-your-grace-regular" > Carrière 
+  </h2>
+    <p> Tout au long de sa carrière  en NBA le joueur de basketball a changé 4 fois club en commençant chez les Cavaliers pour finir chez les Mavericks: </p>
+
+
+ <table border="1"> 
+   <tr>
+    <th> Saison </th>
+    <th> club </th>
+   </tr>
+   <tr>
+     <td> 2011-2017 </td>
+     <td> Cavaliers de Cleveland </td>
+   </tr>
+   <tr> 
+     <td> 2017-2019 </td>
+     <td> Celtics de Boston </td>
+   </tr>
+   <tr> 
+     <td> 2019-2023 </td>
+     <td> Nets de Brooklyn </td>
+    </tr>
+    <tr> 
+     <td> 2023-2024 </td>
+     <td> Mavericks de Dallas </td>
+    </tr>
+  </table> 
+<br>
+
+    <p> Avant de jouer en NBA Kyrie faisait déjà des compétitions en secondaire et à l'université dans différents clubs: </p> 
+    <ul> 
+     <li> Montclair Kimberley Academy </li>
+     <li>  St. Patrick's High School </li>
+     <li>  Blue Devils </li>
+    </ul>
+
+    <h2 class="covered-by-your-grace-regular"> Collaborations </h2>
+    <p> Kyrie Irving signe avec Nike dès l’année 2013 et à l’opportunité d’avoir sa propre chaussure signature. Le pari est réussi dès le premier modèle en 2014 avec une chaussure basée sur la contrôle de la vitesse et le maintien du pied en toutes circonstances. Des caractéristiques techniques qui collent parfaitement au jeu du meneur All-star.</p>
+<ul>
+    <li><h3 class="gloria-hallelujah-regular"> La Kyrie 1 </h3>
+    <a href=https://www.basketpack.fr/178-la-kyrie-de-nike-lhistoire-de-la-chaussure-de-uncle-drew><img height="100" src="./Images/chaussure-nike-kyrie-1.jpg" alt="Kyrie 1"></a>
+    <p> Pour l’un des meilleurs et meneurs de la ligue, Nike mise sur une chaussure basse orientée sur l’adhérence et le maintien du pied notamment grâce à une semelle extérieure qui remonte sur les côtés ce qui restera un signe distinctif de la Kyrie. Côté design, là où beaucoup de monde verra des dents ou un découpage en zigzag, la Kyrie 1 représente en réalité de l’Opéra de Sydney. </p></li>
+
+    <li><h3 class="gloria-hallelujah-regular"> La Kyrie 2 </h3>
+    <p> Avec la Kyrie 2, Nike reste sur la même structure de chaussure et arrive à améliorer encore sa chaussure signature. Toujours orientée sur la vitesse et la rapidité, le nouveau modèle signature garde une semelle arrondie qui continue de remonter pour offrir la  meilleure adhérence. </p></li>
+
+    <li><h3 class="gloria-hallelujah-regular"> La Kyrie 3 </h3>
+     <img height="100" src="./Images/chaussure-nike-kyrie-3.png" alt="Kyrie 2">
+    <p> Cette fois-ci le strap disparaît au profit d’une bande à l’avant du pied ainsi que de câbles Flywire : des fibres que l’on retrouve à l’intérieur de la chaussure toujours dans l’optique de maintenir le pied plus possible. Même chose côté vitesse et équilibre lors des changements de direction, la Kyrie 3 possède une semelle retravaillée et incurvée.</p></li>
+
+    <li><h3 class="gloria-hallelujah-regular"> La Kyrie 4 </h3>
+    <p> Avec encore et toujours une semelle retravaillée à chaque sortie, la Kyrie 4 fera parler d’elle avec la semelle qui ressort sur les côtés sous forme de dents ou de zigzag (même chose sous le pied), pour mieux verrouiller le pied. On gardera les câbles Flywire pour maintenir le tout lors des changements de direction. </p></li>
+
+    <li><h3 class="gloria-hallelujah-regular"> La Kyrie 5 </h3>
+    <img height="100" src="./Images/chaussure-nike-kyrie-5.jpg" alt="Kyrie 5">
+    <p> La Kyrie 5 reste dans la lignée de ses petites sœurs avec un gros travail sur le maintien du pied, renforcé cette fois-ci grâce à un laçage qui resserre la chaussure en forme de piège à mouches. Nike ajoute la nouvelle technologie Air Zoom Turbo qui offre un amorti à l’avant du pied et qui s’adapte aux changements de direction en transférant l’énergie pour de meilleures accélérations. </p></li>
+
+    <li><h3 class="gloria-hallelujah-regular"> La Kyrie 6 </h3>
+    <img height="100" src="./Images/chaussure-nike-kyrie-6.png" alt="Kyrie 6">
+    <p> La Kyrie 6 reprend la semelle des 5 précédents modèles, incurvée sur les côtés sous forme de dents toujours en l’honneur de l’opéra de Sydney, ainsi que la technologie Air Zoom Turbo de la Kyrie 5 pour une chaussure encore et toujours faite pour les changements de directions et le maintien du pied. On retrouvera aussi le strap au milieu du pied de la Kyrie 2 qui avait trouvé son public et qui renforce la maîtrise du rythme et de la vitesse.</p></li>
+
+    <li><h3 class="gloria-hallelujah-regular"> La Kyrie 7 </h3>
+    <img height="100" src="./Images/kyrie-7.jpg" alt="Kyrie 7">
+    <p> Dans sa présentation officielle, Nike évoque une chaussure dédiée à un type bien précis de joueur : les joueurs créateurs, rapides, qui « improvisent » sur les parquets. On identifie bien ici quelques qualités de Kyrie Irving. </p></li>
+  </ul>
+
+<br> 
+  <h2 class= "covered-by-your-grace-regular"> Source:</h2>
+  <a href="https://fr.wikipedia.org/wiki/Kyrie_Irving">Wikipédia de Kyrie </a> 
+  <br>
+  <a href=https://www.lequipe.fr/Basket/BasketFicheJoueur5563.html>Carrière de Kyrie </a>
+  <br>
+  <a href=https://www.basketpack.fr/178-la-kyrie-de-nike-lhistoire-de-la-chaussure-de-uncle-drew>Collaborations de Kyrie </a>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
