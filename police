@@ -1,0 +1,14 @@
+led_rouge = pyb.Pin( 'X1', pyb.Pin.OUT_PP)
+led_bleue = pyb.Pin( 'X2', pyb.Pin.OUT_PP)
+
+
+while True:
+    
+    led_rouge.high()
+    pyb.delay(10)
+    led_bleue.low()
+    pyb.delay(100)
+    led_rouge.low()
+    pyb.delay(10)
+    led_bleue.high()
+    pyb.delay(100)
