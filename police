@@ -12,3 +12,30 @@ while True:
     pyb.delay(10)
     led_bleue.high()
     pyb.delay(100)
+
+
+
+import tm1637
+from colorconversion import*
+from pyb import Timer, Pin
+
+display = tm1637.TM1637(clk=pyb.Pin('X2'), dio=pyb.Pin('X3'))
+pot = pyb.ADC( 'X1' )# résolution par défaut 12 bits (valeur de 0 à 4096)
+timmer = pyb.Timmer(5, freq=500)
+
+channel_red = timmer.channel (
+
+while True:
+   
+def chiffre ():
+    val_pot=pot.read()
+    intensity=(val_pot/4095)*100
+    intensity=int(intensity)
+    display.number (intensity)
+
+print( pot.read() )
+    
+
+
+
+
