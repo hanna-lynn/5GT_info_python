@@ -1,0 +1,24 @@
+class Chaise():
+    def __init__(self):
+        self.materiau=""
+        self.prix=int() #ou alors tu peux mettre srt ce qui veut aussi dire string 
+        self.hauteur=float()
+        self.largeur=float() #int veut dire on veut une valeur d'un nombre entier 
+        self.profondeur=float() #self c quand on parle des differentes variables depuis l'interieur 
+        self.couleur=""
+        self.poids=int()
+        self.surface=float() #float pour nombre qui n'est pas entier
+        
+    def calc_surface(self):
+        self.surface=self.profondeur*self.largeur
+    
+chaise=Chaise() #instanciation de la classe chaise
+chaise.materiau="bois"
+chaise.prix=160
+chaise.hauteur=0.8
+chaise.profondeur=0.5
+chaise.largeur=0.4
+
+chaise.calc_surface()
+
+print(chaise.surface)
