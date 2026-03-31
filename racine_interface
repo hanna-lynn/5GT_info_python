@@ -1,0 +1,89 @@
+from PyQt6 import QtWidgets, QtGui, QtCore
+from PyQt6.QtWidgets import QWidget, QLabel, QVBoxLayout, QPushButton, QLineEdit, QMessageBox
+from math import sqrt 
+import sys 
+
+class Gui(QtWidgets.QMainWindow):
+    def __init__(self):
+        super(Gui, self).__init__()
+        #1. Créer le widget conteneur central 
+        central_widget = QWidget()
+
+        #2. créer un layout 
+        layout = QVBoxLayout ()
+
+        #3. création des widgets et placement dans le layout 
+        label = QLabel ("dans la fonction y=ax²+bx+c:")
+        layout.addWidget (label) 
+
+        label=QLabel ("quelle est la valeur de a ?")
+        layout.addWidget(label)
+
+        #label et line edit a
+        self.line_edit_a=QLineEdit()
+        layout.addWidget(self.line_edit_a)
+
+        label=QLabel ("quelle est la valeur de b ?")
+        layout.addWidget(label)
+
+        #label et line edit b
+        self.line_edit_b=QLineEdit()
+        layout.addWidget(self.line_edit_b)
+
+        label=QLabel ("quelle est la valeur de c ?")
+        layout.addWidget(label)
+
+         #label et line edit c
+        self.line_edit_c=QLineEdit()
+        layout.addWidget(self.line_edit_c)
+
+        button=QPushButton()
+        button.setText('resoudre')
+        button.clicked.connect(self.resoudre)
+        layout.addWidget(button)
+        
+
+        central_widget.setLayout(layout)
+        self.setCentralWidget(central_widget)
+
+    def resoudre(self):
+        a=self.line_edit_a.text()
+        b=self.line_edit_b.text()
+        c=self.line_edit_c.text()
+
+        a=float(a)
+        b=float(b)
+        c=float(c)
+
+        delta=b**2-4*a*c
+
+        if delta<0:
+            text="<p>il n'y a pas de racine</b> à cette fonction.</p>"
+        
+        elif delta ==0 : 
+            racine=-b/(2*a)
+            text="<p>il y a <b>une racine</b> à cette fonction </p> "
+            text+="<p>elle vaut :"
+            text+="<ul><li>{round(racine,4)}</li></ul></p>"
+
+        elif delta>0:
+            racine_1=(-b+sqrt(delta))/(2*a)
+            racine_2=(-b-sqrt(delta))/(2*a)
+            text=f"<p>il y a <b>deux racines</b> à cette fonction.</p>"
+            text+=f"<p> elles valent :"
+            text+=f"<ul><li>{round(racine_1,4)}</li>"
+            text+=f"<li>{round(racine_2,4)}</li></ul></p>"
+        print(text)
+
+        dial_reponse=QMessageBox()
+        dial_reponse.setText(text)
+        dial_reponse.exec()
+
+
+if __name__=="__main__":
+    app = QtWidgets.QApplication(sys.argv)
+    gui = Gui()
+    gui.show()
+    app.exec()
+
+   
